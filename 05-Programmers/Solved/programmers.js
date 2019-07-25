@@ -8,8 +8,11 @@ function Programmer(name, position, age, language) {
 
 // creates the printInfo method and applies it to all programmer objects
 Programmer.prototype.printInfo = function() {
-  console.log("Name: " + this.name + "\nPosition: " + this.position +
-  "\nAge: " + this.age + "\nLanguages: " + this.language);
+  console.log(
+    "Name: " + this.name + 
+    "\nPosition: " + this.position +
+    "\nAge: " + this.age + 
+    "\nLanguages: " + this.language);
 };
 
 // new programmer object is initialized to bob and is provided with the variables
